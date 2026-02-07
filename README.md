@@ -28,7 +28,7 @@ the implemented solution.
 - Database: MySQL
 - Application Server: Apache Tomcat 9
 - Containerization: Docker
-- Orchestration: Kubernetes (MicroK8s)
+- Orchestration: Kubernetes (k8s)
 
 ---
 
