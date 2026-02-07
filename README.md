@@ -1,10 +1,10 @@
-# ProgressSoft DevOps Assignment
+# ProgressSoft Support & Implementation Engineer Assignment
 
-This repository contains my complete solution for the ProgressSoft DevOps assignment.
+This repository contains my complete solution for the ProgressSoft Support & Implementation Engineer assignment.
 The assignment covers Linux administration, SQL, Apache Tomcat, and DevOps concepts
 including Docker, Kubernetes, and Git.
 
-The goal of this project is to demonstrate practical skills in system administration,
+The goal of this assignment is to demonstrate practical skills in system administration,
 application deployment, automation, and containerization.
 
 ---
@@ -28,7 +28,7 @@ the implemented solution.
 - Database: MySQL
 - Application Server: Apache Tomcat 9
 - Containerization: Docker
-- Orchestration: Kubernetes (MicroK8s)
+- Orchestration: Kubernetes (k8s)
 
 ---
 

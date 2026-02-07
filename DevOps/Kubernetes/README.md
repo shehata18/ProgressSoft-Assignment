@@ -10,12 +10,12 @@ Kubernetes (K8s) is a container orchestration platform that automates:
 
 **Key Features**:
 
-`Automated Rollouts and Rollbacks: Deploy changes with zero downtime`
-`Service Discovery and Load Balancing: Automatically distribute traffic across containers`
-`Storage Orchestration: Mount storage systems automatically`
-`Self-Healing: Restart failed containers, replace containers, and kill containers that don't respond`
-`Secret and Configuration Management: Manage sensitive information securely`
-`Horizontal Scaling: Scale applications up or down based on demand`
+- Automated Rollouts and Rollbacks: Deploy changes with zero downtime
+- Service Discovery and Load Balancing:** Automatically distribute traffic across containers
+- Storage Orchestration: Mount storage systems automatically
+- Self-Healing: Restart failed containers, replace containers, and kill containers that don't respond
+- Secret and Configuration Management: Manage sensitive information securely
+- Horizontal Scaling: Scale applications up or down based on demand
 
 ## Master and Worker Nodes
 
@@ -32,10 +32,10 @@ The master node is the brain of the Kubernetes cluster. It manages, controls, an
 
 **Components:**
 
-`API Server (kube-apiserver)`: Front-end for the Kubernetes control plane, handles all REST requests
-`Scheduler (kube-scheduler)`: Assigns pods to nodes based on resource requirements
-`Controller Manager (kube-controller-manager)`: Runs controller processes to regulate the state of the cluster
-`etcd`: Distributed key-value store that stores all cluster data.
+- `API Server (kube-apiserver)`: Front-end for the Kubernetes control plane, handles all REST requests
+- `Scheduler (kube-scheduler)`: Assigns pods to nodes based on resource requirements
+- `Controller Manager (kube-controller-manager)`: Runs controller processes to regulate the state of the cluster
+- `etcd`: Distributed key-value store that stores all cluster data.
 
 ### Worker Node
 Worker nodes run containerized applications and are managed by the master node.
@@ -48,9 +48,9 @@ Worker nodes run containerized applications and are managed by the master node.
 
 **Components**:
 
-`Kubelet`: Agent that runs on each node, ensures containers are running in pods
-`Kube-proxy`: Network proxy that maintains network rules for pod communication
-`Container Runtime`: Software responsible for running containers (Docker, containerd, CRI-O)
+- `Kubelet`: Agent that runs on each node, ensures containers are running in pods
+- `Kube-proxy`: Network proxy that maintains network rules for pod communication
+- `Container Runtime`: Software responsible for running containers (Docker, containerd, CRI-O)
 
 ---
 ## How to Identify Master vs Worker Nodes
