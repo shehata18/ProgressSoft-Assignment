@@ -48,9 +48,9 @@ Worker nodes run containerized applications and are managed by the master node.
 
 **Components**:
 
-`Kubelet`: Agent that runs on each node, ensures containers are running in pods
-`Kube-proxy`: Network proxy that maintains network rules for pod communication
-`Container Runtime`: Software responsible for running containers (Docker, containerd, CRI-O)
+- `Kubelet`: Agent that runs on each node, ensures containers are running in pods
+- `Kube-proxy`: Network proxy that maintains network rules for pod communication
+- `Container Runtime`: Software responsible for running containers (Docker, containerd, CRI-O)
 
 ---
 ## How to Identify Master vs Worker Nodes
