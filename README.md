@@ -1,6 +1,6 @@
-# ProgressSoft DevOps Assignment
+# ProgressSoft Support & Implementation Engineer Assignment
 
-This repository contains my complete solution for the ProgressSoft DevOps assignment.
+This repository contains my complete solution for the ProgressSoft Support & Implementation Engineer assignment.
 The assignment covers Linux administration, SQL, Apache Tomcat, and DevOps concepts
 including Docker, Kubernetes, and Git.
 
