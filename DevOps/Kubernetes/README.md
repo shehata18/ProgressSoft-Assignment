@@ -32,10 +32,10 @@ The master node is the brain of the Kubernetes cluster. It manages, controls, an
 
 **Components:**
 
-`API Server (kube-apiserver)`: Front-end for the Kubernetes control plane, handles all REST requests
-`Scheduler (kube-scheduler)`: Assigns pods to nodes based on resource requirements
-`Controller Manager (kube-controller-manager)`: Runs controller processes to regulate the state of the cluster
-`etcd`: Distributed key-value store that stores all cluster data.
+- `API Server (kube-apiserver)`: Front-end for the Kubernetes control plane, handles all REST requests
+- `Scheduler (kube-scheduler)`: Assigns pods to nodes based on resource requirements
+- `Controller Manager (kube-controller-manager)`: Runs controller processes to regulate the state of the cluster
+- `etcd`: Distributed key-value store that stores all cluster data.
 
 ### Worker Node
 Worker nodes run containerized applications and are managed by the master node.
